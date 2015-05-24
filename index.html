@@ -14,6 +14,7 @@
 
     <!-- Bootstrap core CSS -->
     <link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.4/cosmo/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
     <link href="_css/style.css" rel="stylesheet">
     
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
@@ -28,10 +29,40 @@
   </head>
 
   <body>
+    <div class="container">
 
+        <header class="row">
+        <div class="col-sm-3 logo pull-left"><img src="_images/logo.jpg" alt="Viewmagazine logo"></div> 
+        <form class="navbar-form pull-right col-sm-3 hidden-xs">
+            <div class="form-group margin-top:30px;">
+              <input type="text" placeholder="search" class="form-control">
+            </div>
+            <button type="submit" class="btn btn-default form-control">Search</button>
+          </form>
+               <div class="col-sm-3 pull-right hidden-xs" style="margin-top:30px;">
+                   <ul class="list-inline pull-right">           
+                       <li><a href="#"><img src="_images/facebook.png" class="img-responsive" alt="Viewmagazine Facebook Logo"></a></li>
+                       <li><a href="#"><img src="_images/twitter.png" class="img-responsive" alt="Viewmagazine Twitter Logo"></a></li>
+                       <li><a href="#"><img src="_images/googleplus.png" class="img-responsive" alt="Viewmagazine Googleplus Logo "></a></li>
+                       <li><a href="register.html"><img src="_images/facebook.png" class="img-responsive" alt="Viewmagazine Subscription Logo "></a></li>
+
+                   </ul>           
+               </div>
+        </header>
+        <div class="row">
+               <div class="col-sm-10 centered hidden-xs" style="margin-top:30px;">
+                   <ul class="list-inline pull-right">           
+                       <li><a href="#"><img src="_images/awards.jpg" class="img-responsive" alt="Viewmagazine Facebook Logo"></a></li>
+                       <li><a href="#"><img src="_images/awards.jpg" class="img-responsive" alt="Viewmagazine Twitter Logo"></a></li>
+                       <li><a href="#"><img src="_images/awards.jpg" class="img-responsive" alt="Viewmagazine Googleplus Logo "></a></li>
+                       <li><a href="register.html"><img src="_images/awards.jpg" class="img-responsive" alt="Viewmagazine Subscription Logo "></a></li>
+                       <li><a href="register.html"><img src="_images/awards.jpg" class="img-responsive" alt="Viewmagazine Subscription Logo "></a></li>
+
+                   </ul>           
+               </div>
+        </div>
     <!-- Navigation -->
-    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-        <div class="container">
+    <nav class="navbar navbar-inverse" role="navigation">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -40,11 +71,10 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#">Viewmagazine.tv</a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav">
+                <ul class="nav navbar-nav navbar-right">
                     <li>
                         <a href="#">Home</a>
                     </li>
@@ -69,11 +99,9 @@
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container -->
+        
     </nav>
 
-    <div class="container">
 
       <!-- Carousel
       ================================================== -->
@@ -120,52 +148,50 @@
       </div><!-- /.carousel -->
 
 
-
-        <!-- Page Header -->
-        <div class="row no-gutter">
-            <div class="col-lg-12">
-                <h1 class="page-header">Page Heading
-                    <small>Secondary Text</small>
+        <!-- Page Heading -->
+        <div class="row white">
+            <div class="col-xs-6 gutter col-xs-offset-5">
+                <h1>
+                    <small>Some text</small>
                 </h1>
             </div>
         </div>
         <!-- /.row -->
 
-        <!-- Projects Row -->
-        <div class="row" id="firstRow">
-            <div class="col-md-4 portfolio-item">
-                <a href="#">
-                    <img class="img-responsive" src="_images/harden.png" alt="">
-                </a>
-                <h3>
-                    <a href="#">Project Name</a>
-                </h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+        <div class="row white">
+            <div class="col-md-4 col-xs-12 col-sm-4 col-md-offset-0 classWithPad">
+                <p><img src="_images/harden.png" alt="" class="img-responsive img-rounded center-block"></p>
+                <h4>CSS</h4>
+                <p>We are TechCamp, a London-based training company which aims at helping you learn all the essential skills you'll need to build an engaging website. Your online business it at hand.We offer one-day training courses of HTML5, CSS3, Javascript, PHP and many more. Book it today!</p>
+                <p><a href="courses.html" class="btn btn-default btn-md">Read more</a></p>
             </div>
-            <div class="col-md-4 portfolio-item">
-                <a href="#">
-                    <img class="img-responsive" src="_images/harden.png" alt="">
-                </a>
-                <h3>
-                    <a href="#">Project Name</a>
-                </h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+            <div class="col-md-4 col-sm-4 col-xs-12 classWithPad">
+                <p><img src="_images/harden.png" alt="" class="img-responsive img-rounded center-block"></p>
+                <h4>PHP</h4>
+                <p>We are TechCamp, a London-based training company which aims at helping you learn all the essential skills you'll need to build an engaging website. Your online business it at hand.We offer one-day training courses of HTML5, CSS3, Javascript, PHP and many more. Book it today!</p>
+                <p><a href="courses.html" class="btn btn-default btn-md">Read more</a></p>
             </div>
-            <div class="col-md-4 portfolio-item">
-                <a href="#">
-                    <img class="img-responsive" src="_images/harden.png" alt="">
-                </a>
-                <h3>
-                    <a href="#">Project Name</a>
-                </h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+            <div class="col-md-4 col-sm-4 col-xs-12 classWithPad">
+                <p><img src="_images/harden.png" alt="" class="img-responsive img-rounded center-block"></p>
+                <h4>HTML</h4>
+                <p>We are TechCamp, a London-based training company which aims at helping you learn all the essential skills you'll need to build an engaging website. Your online business it at hand.We offer one-day training courses of HTML5, CSS3, Javascript, PHP and many more. Book it today! </p>
+                <p><a href="courses.html" class="btn btn-default btn-md">Read more</a></p>
             </div>
-        </div> 
+        </div>
 
-        <hr>
+        
 
-        <div class="row" id="secondRow">
-            <div class="col-md-12 portfolio-item">
+        <div class="row grey">
+            <div class="col-xs-6 gutterTwo col-xs-offset-3 whiteText">
+                <h1>
+                    Awarding winning video journalism.
+                </h1>
+            </div>
+        </div>
+
+
+        <div class="row white" id="secondRow">
+            <div class="col-xs-10 col-xs-offset-1 topgutter">
                 <a href="#">
                     <img class="img-responsive" src="_images/boxing.png" alt="">
                 </a>
@@ -176,28 +202,29 @@
             </div>
         </div>
 
-        <!-- Page Header -->
-        <div class="row">
-            <div class="col-lg-12">
-                <h1 class="page-header">Page Heading
-                    <small>Secondary Text</small>
+        
+        <!-- Section Heading -->
+        <div class="row grey">
+            <div class="col-xs-6 gutter col-xs-offset-5">
+                <h1>
+                    <small>Some text</small>
                 </h1>
             </div>
         </div>
         <!-- /.row -->
 
         <!-- Projects Row -->
-        <div class="row">
-            <div class="col-md-6 portfolio-item">
+        <div class="row grey whiteText">
+            <div class="col-md-6 gutterThree classWithPad">
                 <a href="#">
                     <img class="img-responsive" src="http://placehold.it/700x400" alt="">
                 </a>
-                <h3>
+                <h3 class="whiteText">
                     <a href="#">Project One</a>
                 </h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
             </div>
-            <div class="col-md-6 portfolio-item">
+            <div class="col-md-6 gutterFour classWithPad">
                 <a href="#">
                     <img class="img-responsive" src="http://placehold.it/700x400" alt="">
                 </a>
@@ -207,37 +234,54 @@
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
             </div>
         </div>
-        <!-- /.row -->
 
-        <!-- Page Heading -->
-        <div class="row">
-            <div class="col-lg-12">
-                <h1 class="page-header">Page Heading
-                    <small>Secondary Text</small>
+        
+        <div class="row white">
+            <div class="col-xs-10 col-xs-offset-1 topgutter">
+                <a href="#">
+                    <img class="img-responsive" src="_images/boxing.png" alt="">
+                </a>
+                <h3>
+                    <a href="#">Project Name</a>
+                </h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+            </div>
+        </div>
+
+        <div class="row white">
+            <div class="col-xs-6 gutter col-xs-offset-5">
+                <h1>
+                    <small>Some text</small>
                 </h1>
             </div>
+         </div>
+         
+          <div class="row white ">
+            <div class="col-md-4 col-xs-12 col-sm-4 col-md-offset-0 classWithPad">
+                <p><img src="_images/harden.png" alt="" class="img-responsive img-rounded center-block"></p>
+                <h4>CSS</h4>
+                <p>We are TechCamp, a London-based training company which aims at helping you learn all the essential skills you'll need to build an engaging website. Your online business it at hand.We offer one-day training courses of HTML5, CSS3, Javascript, PHP and many more. Book it today!</p>
+                <p><a href="courses.html" class="btn btn-default btn-md">Read more</a></p>
+            </div>
+            <div class="col-md-4 col-sm-4 col-xs-12 classWithPad">
+                <p><img src="_images/harden.png" alt="" class="img-responsive img-rounded center-block"></p>
+                <h4>PHP</h4>
+                <p>We are TechCamp, a London-based training company which aims at helping you learn all the essential skills you'll need to build an engaging website. Your online business it at hand.We offer one-day training courses of HTML5, CSS3, Javascript, PHP and many more. Book it today!</p>
+                <p><a href="courses.html" class="btn btn-default btn-md">Read more</a></p>
+            </div>
+            <div class="col-md-4 col-sm-4 col-xs-12 classWithPad">
+                <p><img src="_images/harden.png" alt="" class="img-responsive img-rounded center-block"></p>
+                <h4>HTML</h4>
+                <p>We are TechCamp, a London-based training company which aims at helping you learn all the essential skills you'll need to build an engaging website. Your online business it at hand.We offer one-day training courses of HTML5, CSS3, Javascript, PHP and many more. Book it today! </p>
+                <p><a href="courses.html" class="btn btn-default btn-md">Read more</a></p>
+            </div>
         </div>
-        <!-- /.row -->
 
-        <!-- Project One -->
-        <div class="row">
-            <div class="col-md-7">
-                <a href="#">
-                    <img class="img-responsive" src="http://placehold.it/700x300" alt="">
-                </a>
-            </div>
-            <div class="col-md-5">
-                <h3>Project One</h3>
-                <h4>Subheading</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium veniam exercitationem expedita laborum at voluptate. Labore, voluptates totam at aut nemo deserunt rem magni pariatur quos perspiciatis atque eveniet unde.</p>
-                <a class="btn btn-primary" href="#">View Project <span class="glyphicon glyphicon-chevron-right"></span></a>
-            </div>
-        </div>
         <!-- /.row -->
         <hr>
 
         <footer>
-          <p>&copy; Viewmagazine 2015</p>
+          <p class="whiteText">&copy; Viewmagazine 2015 Designed and coded by Lei He and David</p>
         </footer>
     </div> <!-- /container -->
 
