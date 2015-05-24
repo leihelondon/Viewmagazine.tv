@@ -20,6 +20,14 @@ body, #background {
     border-color: rgba(66, 65, 65, 0);
 }
 
+.navbar-preheader .navbar-toggle:hover {
+    background-color: black;
+}
+
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+    border-color: #FFF;
+}
+
 
 
 /* CUSTOMIZE THE CAROUSEL
