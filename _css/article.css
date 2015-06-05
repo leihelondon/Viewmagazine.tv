@@ -1,0 +1,98 @@
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+.carousel {
+  margin-bottom: 0px;
+  margin-top: -15px;
+}
+
+.img-responsive,
+.thumbnail > img,
+.thumbnail a > img,
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.carousel-caption {
+  position: absolute;
+  left: 20px;
+  right: 0;
+  top: 50px;
+  bottom: 0px
+  z-index: 10;
+  padding: 0 0 10px 25px;
+  color: #fff;
+  text-align: left;
+  width: 470px;
+}
+
+.hrCustom{
+  -moz-border-bottom-colors: none;
+  -moz-border-image: none;
+  -moz-border-left-colors: none;
+  -moz-border-right-colors: none;
+  border-color: #EEEEEE -moz-use-text-color #FFFFFF;
+  border-style: solid none;
+  border-width: 2px 0;
+  margin: 18px 0px;
+  width: 55px;
+  border-top-color: rgb(255,255,255);
+}
+
+.hrCustomBlack{
+  -moz-border-bottom-colors: none;
+  -moz-border-image: none;
+  -moz-border-left-colors: none;
+  -moz-border-right-colors: none;
+  border-color: #EEEEEE -moz-use-text-color #FFFFFF;
+  border-style: solid none;
+  border-width: 2px 0;
+  margin: 8px 0px 0px 0px;
+  width: 60px;
+  border-top-color: rgb(0,0,0);
+}
+
+
+.gutterBreadscrum{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+
+
+.breadcrumb>.active {
+  color: #00adef;
+}
+
+.breadcrumb a{
+    color: #999999;
+}
+
+.breadcrumb a:hover{
+    color: #00adef;
+}
+
+.breadcrumb {
+  background-color: #FFFFFF;
+}
+
+.gutterArticleOne{
+  padding-top: 50px;
+  padding-left: 50px;
+}
+
+.greyText{
+  color: rgb(34,34,34);
+}
+
+.rowPad{
+  padding-bottom: 100px;
+  margin-left:0px;
+}
+
+.headlineWidth{
+
+}
