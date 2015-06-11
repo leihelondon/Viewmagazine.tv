@@ -176,3 +176,10 @@ a {
   padding-right: 0px;
 }
 
+#whiteTitle a{
+  color: #FFF;
+}
+
+#blackTitle a{
+  color: #000;
+}
